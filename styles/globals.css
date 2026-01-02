@@ -1,0 +1,16 @@
+/* styles/globals.css */
+@source "../pages/**/*.{ts,tsx}";
+@source "../components/**/*.{ts,tsx}";
+@import "tailwindcss";
+
+
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
